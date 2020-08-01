@@ -4,7 +4,11 @@
     "allowJs": true,
     "noEmit": true,
     "moduleResolution": "node",
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"]
+    }
   },
   "include": ["./src/**/*"]
 }
