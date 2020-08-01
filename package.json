@@ -1,0 +1,37 @@
+{
+  "name": "express-typescript-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple starter for express with typescript support",
+  "main": "index.js",
+  "author": "Robert Sidzinka <rsidzinka@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && yarn server",
+    "server": "node build/index.js",
+    "dev": "yarn start",
+    "dev:watch": "nodemon",
+    "build": "babel src --out-dir build --copy-files --extensions '.ts'"
+  },
+  "repository": {
+    "url": "https://github.com/roberts98/express-typescript-simple-starter"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "@babel/runtime": "^7.11.0",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
