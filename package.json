@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn build && yarn server",
-    "server": "node build/index.js",
+    "server": "cd ./build && node index.js",
     "dev": "yarn start",
     "dev:watch": "nodemon",
     "build": "babel src --out-dir build --copy-files --extensions '.ts'"
