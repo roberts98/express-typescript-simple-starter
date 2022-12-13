@@ -16,7 +16,7 @@
     "url": "https://github.com/roberts98/express-typescript-simple-starter"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
